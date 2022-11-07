@@ -1,7 +1,7 @@
 package tests;
 
-
-import config.ConfigFactory;
+import config.factory.BrowserStackConfigFactory;
+import config.factory.ConfigFactory;
 import org.testng.annotations.Test;
 
 public class DemoTest {
@@ -13,6 +13,8 @@ public class DemoTest {
 
 
         System.out.println(ConfigFactory.getConfig().browser());
+
+        System.out.println(BrowserStackConfigFactory.getConfig().browserstackURL());
 
 
 

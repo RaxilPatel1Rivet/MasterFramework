@@ -1,4 +1,4 @@
-package driver.manager;
+package driver.manager.web.local;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
